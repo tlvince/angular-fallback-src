@@ -1,0 +1,15 @@
+{
+  "name": "angular-fallback-src",
+  "main": "fallback-src.js",
+  "version": "0.1.0",
+  "authors": [
+    "Tom Vincent <git@tlvince.com>"
+  ],
+  "description": "Fallback image source",
+  "keywords": [
+    "fallback",
+    "image"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tlvince/angular-fallback-src"
+}
