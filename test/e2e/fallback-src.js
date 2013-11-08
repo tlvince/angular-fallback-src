@@ -15,4 +15,9 @@ describe('fallback src', function() {
     // Fallback image
     expect(element('#first img').attr('src')).toBe('img/wiki.png');
   });
+
+  it('should use fb-src if ng-src is empty', function() {
+    expect(element('#second img').attr('src')).toBe('img/wiki.png');
+  });
+
 });

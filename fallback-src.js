@@ -15,6 +15,10 @@ angular.module('fallback.src', [])
     return {
       restrict: 'A',
       link: function(scope, element, attrs) {
+        if(!attrs.ngSrc) {
+          element.attr('src', attrs.fbSrc);
+        }
+
         element.bind('error', function() {
           element.attr('src', attrs.fbSrc);
         });
