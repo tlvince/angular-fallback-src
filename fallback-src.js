@@ -20,7 +20,7 @@ angular.module('fallback.src', [])
         }
 
         element.bind('error', function() {
-          element.attr('src', attrs.fbSrc);
+          element.unbind('error').attr('src', attrs.fbSrc);
         });
       }
     };
