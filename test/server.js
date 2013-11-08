@@ -1,6 +1,5 @@
-var connect = require('connect'),
-    port = process.env.PORT || 9000;
-
+var connect = require('connect');
 connect.createServer(
+  connect.logger('dev'),
   connect.static(__dirname + '/app')
-).listen(port);
+).listen(9000);
