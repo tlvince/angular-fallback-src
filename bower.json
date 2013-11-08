@@ -11,5 +11,8 @@
     "image"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/tlvince/angular-fallback-src"
+  "homepage": "https://github.com/tlvince/angular-fallback-src",
+  "devDependencies": {
+    "angular": "~1.0.8"
+  }
 }

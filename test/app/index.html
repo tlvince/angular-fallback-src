@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Fallback Image</title>
+  </head>
+  <body ng-app="App">
+
+    <div id="first">
+      <img
+        ng-src="broken.png"
+        fb-src="img/wiki.png" />
+    </div>
+
+    <div id="second">
+      <img
+        ng-src=""
+        fb-src="img/wiki.png" />
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/directives/fallback-src.js"></script>
+  </body>
+</html>

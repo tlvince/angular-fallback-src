@@ -4,7 +4,7 @@
   "description": "Fallback image source directive",
   "main": "fallback-src.js",
   "scripts": {
-    "test": "karma"
+    "test": "scripts/test.sh"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "karma-requirejs": "~0.1.0",
     "karma-coffee-preprocessor": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.0",
-    "karma": "~0.10.4"
+    "karma": "~0.10.4",
+    "karma-ng-scenario": "~0.1.0",
+    "connect": "~2.11.0"
   }
 }
