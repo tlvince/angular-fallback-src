@@ -24,6 +24,14 @@ Example:
 bower install angular-fallback-src
 ```
 
+## Usage
+
+Add `fallback.src` as a module dependency, e.g.:
+
+```js
+angular.module('App', ['fallback.src']);
+```
+
 ## Author
 
 © 2013 Tom Vincent <http://tlvince.com/contact>
