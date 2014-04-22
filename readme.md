@@ -15,6 +15,9 @@ Example:
   fb-src="http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png" />
 ```
 
+`fb-src` can of type array of strings, in which case, each element will be
+used in turn until a request is successful.
+
 [travis]: https://travis-ci.org/tlvince/angular-fallback-src
 [travis-badge]: https://travis-ci.org/tlvince/angular-fallback-src.png?branch=master
 
@@ -34,7 +37,7 @@ angular.module('App', ['fallback.src']);
 
 ## Author
 
-© 2013 Tom Vincent <http://tlvince.com/contact>
+© 2014 Tom Vincent <http://tlvince.com/contact>
 
 ## License
 

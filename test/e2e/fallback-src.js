@@ -25,4 +25,10 @@ describe('fallback src', function() {
     expect(element('#third').attr('src')).toBe('third-again.png');
   });
 
+  it('should support an array of fallbacks', function() {
+    expect(element('#fourth').attr('src')).toBe('fourth.png');
+    sleep(0.1);
+    expect(element('#fourth').attr('src')).toBe('img/wiki.png');
+  });
+
 });
