@@ -1,6 +1,6 @@
 {
   "name": "angular-fallback-src",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Fallback image source directive",
   "main": "fallback-src.js",
   "scripts": {

@@ -1,7 +1,7 @@
 {
   "name": "angular-fallback-src",
   "main": "fallback-src.js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "authors": [
     "Tom Vincent <git@tlvince.com>"
   ],
@@ -14,5 +14,14 @@
   "homepage": "https://github.com/tlvince/angular-fallback-src",
   "devDependencies": {
     "angular": "~1.0.8"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test/app/bower_components",
+    "test",
+    "tests",
+    "scripts"
+  ]
 }
